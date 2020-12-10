@@ -1,0 +1,81 @@
+h1 
+{
+  text-align: center;
+}
+
+#playName
+{
+  float: right;
+  font-size: 20px;
+}
+
+#container
+{
+  width: 800px;
+  height: 800px;
+  background-color: black;
+  
+  
+}
+
+.quarterCircle
+{
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.quarterCircle:hover
+{
+  box-shadow: inset 0px 0px 0px 1px;
+  box-sizing: border-box;
+}
+
+#yellow
+{
+  width: 150px;
+  height: 150px;
+  background: yellow;
+  border: solid 6px gray;
+  border-top-left-radius: 100%
+}
+
+#blue
+{
+  width: 150px;
+  height: 150px;
+  background: blue;
+  border: solid 6px grey;
+  border-top-right-radius: 100%
+}
+
+#green
+{
+  width: 150px;
+  height: 150px;
+  background: green;
+  border: solid 6px grey;
+  border-bottom-right-radius: 100%
+}
+
+#red
+{
+  width: 150px;
+  height: 150px;
+  background: red;
+  border: solid 6px grey;
+  border-bottom-left-radius: 100%
+}
+
+#strBtn
+{
+  margin: auto;
+  padding-right: 10px;
+  background-color: #C8A2C8;
+}
+
+#resBtn
+{
+  margin: 10px 10px 10px 10px;
+  background-color: #C8A2C8;
+}
